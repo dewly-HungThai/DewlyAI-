@@ -104,7 +104,7 @@ if __name__ == "__main__":
     senior_staff = tool.filter_data("Age", ">=", 35)
     high_earners = tool.filter_data("Salary", ">", 2500)
 
-    # Department statistics (toàn bộ)
+    # Department statistics
     tool.department_stats(dept_col="Department")
 
     # Statistics on filtered subset (senior staff only)
